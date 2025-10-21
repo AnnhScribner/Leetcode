@@ -19,3 +19,23 @@ class Solution:
         return save == list(reversed(save))
         
  
+s = Solution()
+
+print("Testing 121:")
+print("Expected: True  |  Got:", s.isPalindrome(121))
+print()
+
+print("Testing -121:")
+print("Expected: False |  Got:", s.isPalindrome(-121))
+print()
+
+print("Testing 10:")
+print("Expected: False |  Got:", s.isPalindrome(10))
+print()
+
+print("Testing 0:")
+print("Expected: True  |  Got:", s.isPalindrome(0))
+print()
+
+print("Testing 1221:")
+print("Expected: True  |  Got:", s.isPalindrome(1221))
