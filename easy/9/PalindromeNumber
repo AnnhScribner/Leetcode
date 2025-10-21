@@ -1,0 +1,21 @@
+class Solution:
+    """
+    This function checks if an integer
+    is a palindrome.
+    It uses a while loop that runs based
+    on the number of digits (N),
+    resulting in an O(N) runtime
+    complexity.
+    """
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+        
+        save = []
+        while x != 0:
+            save.append(x % 10)
+            x = x // 10
+
+        return save == list(reversed(save))
+        
+ 
