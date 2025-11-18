@@ -24,13 +24,3 @@ class Solution:
 s = Solution()
 print(s.mergeAlternately(['a', 'b', 'c', 'd'], ['p', 'q', 'r']))
 print(s.mergeAlternately(['p', 'q', 'r'], ['a', 'b', 'c', 'd']))
-
-
-
-
-
-
-
-# arr = ['1', '2', '3']
-# arr.insert(2, '9')
-# print(arr)
